@@ -4,4 +4,4 @@ export(ORR)
 import(binom)
 import(rmarkdown)
 import(knitr)
-
+useDynLib(endpointspkg)
