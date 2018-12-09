@@ -2,3 +2,5 @@
 export(DCR)
 export(ORR)
 import(binom)
+import(rmarkdown)
+import(knitr)
