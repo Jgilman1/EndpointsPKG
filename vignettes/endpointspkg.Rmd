@@ -1,0 +1,55 @@
+---
+title: "Calculationg Disease Endpoints for Cancer"
+author: "Jon Gilman"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{endpointspkg}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+
+
+## Introduction
+
+This package is designed to calculate some basic but important endpoints that are used in clinical trials to determine the efficacy of a investigational product. The package "EndpointsPKG" is an R package that can be found on the GitHub page <https://github.com/Jgilman1/EndpointsPKG>.
+
+This package is very straight forward and easy to use.  It consists of two functions that will calculate the Disease Control Rate (DCR) and Objective Response Rate (ORR) along with 95% exact binomial confidence intervals.  
+
+## Using the EndpointsPKG package
+
+Both functions require two inputs each.  The first input is labeled "x" and is a numeric count of the subjects that have achieved the criteria for that endpoint.  The other input "n" is a numeric count of all the subjects that meet the criteria for inclusion.  
+
+As these endpoints relate to oncology DCR generally includes subjects who either respond positively to the drug or do not further progress.  For example, using RECIST criteria for cancer, a DCR would include subjects who have a response of partial response (PR), stable disease (SD), or complete response (CR).  
+
+ORR is similar to DCR but subjects with stable disease (SD) are excluded so the value for "x" is just subjects with PR or CR.  
+
+
+
+## An Example
+
+Below is a demonstration of the functions in action.  We will say "x" for DCR is 4 and "x" for ORR is 3.  Both will use an "n" of 18.
+
+```{r}
+library(EndpointsPKG)
+DCR(4,18)
+
+ORR(3,18)
+
+```
+
+The output is a percentage and a 95% binomial confidence interval.  This output is easy to interpret and gives a clear picture of the relative success you are seeing with the drug product.  This package is meant to give simple output of important endpoints in order to make a statistical determination on the efficacy of the drug of interest.  
+
+
+
+
+
+
