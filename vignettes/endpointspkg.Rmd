@@ -31,7 +31,7 @@ Note the various macros within the `vignette` section of the metadata block abov
 The `html_vignette` template includes a basic CSS theme. To override this theme you can specify your own CSS in the document metadata as follows:
 
     output: 
-      rmarkdown::html_vignette:
+      rmarkdown::html_Endpoints:
         css: mystyles.css
 
 ## Figures
