@@ -8,6 +8,7 @@ devtools package required to install EndpointsPKG from Github
 ```
 devtools::install_github("Jgilman1/EndpointsPKG")
 ```
-# example
-DCR(4,7),
+# examples
+DCR(4,7)
+
 ORR(3,7)
