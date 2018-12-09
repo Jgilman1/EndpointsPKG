@@ -9,7 +9,7 @@ DCR(x, n)
 \arguments{
 \item{x}{a number indicating total number of subjects with Stable Disease, Partial Response, or Complete Response}
 
-\item{n}{a number indicating total number of subjects}
+\item{n}{a number indicating total number of evaluable subjects}
 }
 \value{
 disease control rate and 95% binomial confidence interval
