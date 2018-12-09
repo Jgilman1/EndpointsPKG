@@ -12,7 +12,7 @@ ORR(x, n)
 \item{n}{a number indicating total number of evaluable subjects}
 }
 \value{
-Objective Response Rate and 95% binomial confidence interval
+Objective Response Rate and  binomial confidence interval
 }
 \description{
 Objective Response Rate and Binomial Confidence interval
