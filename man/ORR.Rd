@@ -9,7 +9,7 @@ ORR(x, n)
 \arguments{
 \item{x}{a number indicating total number of subjects with Partial Response or Complete Response}
 
-\item{n}{a number indicating total number of subjects}
+\item{n}{a number indicating total number of evaluable subjects}
 }
 \value{
 Objective Response Rate and 95% binomial confidence interval
