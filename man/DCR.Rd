@@ -9,13 +9,13 @@ DCR(x, n)
 \arguments{
 \item{x}{a number indicating total number of subjects with Stable Disease, Partial Response, or Complete Response}
 
-\item{n}{a number indicating total number of evaluable subjects}
+\item{n}{a number indicating total number of subjects}
 }
 \value{
 disease control rate and binomial confidence interval
 }
 \description{
-Calculates Disease Control Rate and Binomial Confidence interval
+Disease Control Rate and Binomial Confidence interval
 }
 \examples{
 DCR(7,13)
