@@ -12,10 +12,10 @@ DCR(x, n)
 \item{n}{a number indicating total number of evaluable subjects}
 }
 \value{
-disease control rate and 95% binomial confidence interval
+disease control rate and binomial confidence interval
 }
 \description{
-Disease Control Rate and Binomial Confidence interval
+Calculates Disease Control Rate and Binomial Confidence interval
 }
 \examples{
 DCR(7,13)
