@@ -4,7 +4,7 @@ Version: 0.0.0.9000
 Authors@R: person("Jon", "Gilman", email = "jgilman1@ufl.edu", role = c("aut", "cre"))
 Description: This package will calculate the Objective Response Rate and Disease Control Rates along with corresponding exact binomial confidence intervals.  This package is intended it help analyze relevant endpoints in early phase oncology trials in order to assess efficacy of a drug product.   
 Depends: R (>= 3.4.3)
-License: What license is it under?
+License: MIT
 Encoding: UTF-8
 LazyData: true
 Imports: binom, rmarkdown, knitr
