@@ -1,6 +1,4 @@
 # EndpointsPKG
-
-# About
 An R package used to calculate cancer related endpoints in clinical trials.
 
 # How to install
