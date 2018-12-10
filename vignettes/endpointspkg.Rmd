@@ -1,5 +1,5 @@
 ---
-title: "Calculationg Disease Endpoints for Cancer"
+title: "Calculating Disease Endpoints for Cancer"
 author: "Jon Gilman"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
